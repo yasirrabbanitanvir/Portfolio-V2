@@ -646,10 +646,19 @@ const Header = () => {
         </p>
 
         <a href={Resume} download>
-          <button className="flex items-center gap-2 bg-[#00CFE8] text-white px-5 py-3 rounded-md font-semibold shadow-md hover:scale-105 transition duration-300">
+          {/* <button className="flex items-center gap-2 bg-[#00CFE8] text-white px-5 py-3 rounded-md font-semibold shadow-md hover:scale-105 transition duration-300">
             <SiGoogledocs className="text-xl" />
             Download Resume
-          </button>
+          </button> */}
+          <button
+  disabled
+  className="flex items-center gap-2 bg-[#00CFE8] text-white px-5 py-3 rounded-md font-semibold shadow-md hover:scale-105 transition duration-300"
+>
+  <SiGoogledocs className="text-xl" />
+  Download Resume
+</button>
+
+
         </a>
       </div>
 
