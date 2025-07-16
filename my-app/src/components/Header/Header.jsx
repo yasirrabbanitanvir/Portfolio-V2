@@ -7,6 +7,7 @@ import { FaAngleDoubleDown } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 
 import Resume from "../../../public/assets/images/Yeasir Rabbani Tanvir (Resume).pdf";
+
 import { Link } from "react-router-dom";
 import { scroller } from "react-scroll";
 import { Typewriter } from "react-simple-typewriter";
